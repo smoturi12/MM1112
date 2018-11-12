@@ -1,0 +1,4 @@
+#Sun Nov 11 21:11:13 PST 2018
+base.0=/Users/manishkantamneni/Desktop/MovieMonkey/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
