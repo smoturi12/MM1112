@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie-Monkey</string>
+
+    <string name="search_page_title">Search Movies</string>
+    <string name="action_search">search</string>
+    <string name="details_page_title">Details</string>
+    <string name="no_results_text">No results</string>
+</resources>
