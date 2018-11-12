@@ -54,7 +54,7 @@ public class DetailsActivity extends BaseActivity implements DetailsMVPContract.
         Log.d(TAG, "updateMovieDetails():" + movie);
         if (movie != null) {
             String imageUrl = movie.getBackdropPath();
-            if (imageUrl != null && imageUrl.isEmpty()) {
+            if (imageUrl != null && !imageUrl.isEmpty()) {
                 RequestOptions options = new RequestOptions()
                         .fitCenter()
                         .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
